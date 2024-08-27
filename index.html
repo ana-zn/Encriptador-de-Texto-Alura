@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Encriptador de texto</title>
+    <!--Vinculacion con google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!--Vinculacion BoxIcon-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <main class="container-content">
+        <div class="container-logo">
+            <img src="assets/Logo.svg" alt="logo de alura">
+        </div>
+        <div class="container-input">
+            <div class="form__input-group">
+                <label class="form__label" for="nombre">Ingrese el texto aqui</label>
+                <input class="form__input" type="text" id="nombre" placeholder="">
+            </div>
+            <div class="container__text text--1">
+                <i class='bx bxs-error-circle'></i>
+                <span>Solo letras minúsculas y sin acentos</span>
+            </div>
+            <container class="button">
+                <button class="btn btn--1">Encriptar</button>
+                <button class="btn btn--2">Desencriptar</button>
+            </container>
+        </div>
+        <div class="container-result">
+            <img src="assets/Muñeco.svg" alt="Personaje en tonos azules">
+            <div class="container__text text--2">
+                <p>Ningún mensaje fue encontrado</p>
+                <span>Ingresa el texto que desees encriptar o desencriptar.</span>
+            </div>
+        </div>
+    </main>
+      <!--Vinculacion a JavaScript -->
+      <script src="js/script.js"></script>
+</body>
+</html>
